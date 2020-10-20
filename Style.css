@@ -71,22 +71,47 @@ p {
     line-height: 1.3;
 }
 .list{
-    float: left;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 5px;
     font-family: 'Courgette', cursive;
     color: white;
+    display: inline;
 }
 .list:hover{
-    background-color:darkviolet;
+    background-color:darkgreen;
+    font-size: 60px;
+    text-decoration: underline;
 }
 .menu{
-    top:10px;
-    right: 30px;
+    margin-top: 0px;
+    text-align: center;
+    top:0px;
     list-style:none;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     cursor: pointer;
+    color: white;
+    width: 100%;
+    background-color: limegreen;
+}
+a{
+    text-decoration:none;
+    color:red;
+    font-size: 30px;
+    text-shadow: 3px 3px springgreen;
+}
+#conact iframe{
+    width: 100%
+}
+#conact{
+    background-color:blueviolet;
+    color: white;
+}
+#detail{
+    font-size: 20px;
+}
+wr:hover{
+    color:green;
 }
